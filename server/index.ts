@@ -3,6 +3,7 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import { registerRoutes } from './routes';
 import { setupVite } from './vite';
+import 'dotenv/config';
 
 async function main() {
   const app = express();
